@@ -1,0 +1,8 @@
+{
+    "url": "http://localhost:3000",                        
+    "name": "CriptoMatch",
+    "iconUrl": "http://localhost:3000/apple-touch-icon.png",       
+    "termsOfUseUrl": "http://localhost:3000/terms-of-use.txt",     
+    "privacyPolicyUrl": "http://localhost:3000/privacy-policy.txt" 
+  }
+
