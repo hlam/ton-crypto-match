@@ -1,4 +1,4 @@
-# Getting Started with TGUI Example
+# TGUI dating
 
 ## Available Scripts
 
@@ -19,3 +19,24 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+
+### ngrok or localtunnel (Optional)
+
+Choose either ngrok or localtunnel to expose your local server to the internet for testing in Telegram.
+
+#### ngrok Installation
+
+```bash
+npm install -g ngrok
+```
+
+ngrok Documentation: [https://ngrok.com/docs](https://ngrok.com/docs)
+
+#### localtunnel Installation
+
+```bash
+npm install -g localtunnel
+```
+
+LocalTunnel Documentation: [https://localtunnel.github.io/www/](https://localtunnel.github.io/www/)
