@@ -1,5 +1,4 @@
 import {useCallback, useEffect, useRef, useState} from 'react';
-import ReactJson from 'react-json-view';
 import './style.scss';
 import {TonProofApi} from "../../TonProofApi";
 import {useTonConnectUI, useTonWallet} from "@tonconnect/ui-react";
@@ -80,7 +79,7 @@ export const TonProof = () => {
 			) : (
 				<div className="ton-proof-demo__error">Connect wallet to call API</div>
 			)}
-			<ReactJson src={data} name="response" theme="ocean" />
+			<pre>{JSON.stringify(data, null, 2)}</pre>
 		</div>
 	);
 }
