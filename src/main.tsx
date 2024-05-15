@@ -14,6 +14,7 @@ import {App} from './App'
 import {runSingleInstance} from "./utils/run-signle-instance";
 
 eruda.init();
+/*
 
 async function enableMocking() {
   return new Promise(async (resolve) => {
@@ -41,6 +42,7 @@ async function enableMocking() {
     setInterval(verifyAndRestartWorker, 1_000);
   });
 }
+*/
 /*
 enableMocking().then(() => render(
   <StrictMode>
