@@ -1,11 +1,16 @@
-import './patch-local-storage-for-github-pages';
-import './polyfills';
+import '@telegram-apps/telegram-ui/dist/styles.css';
+import './index.scss'
+
+// import './patch-local-storage-for-github-pages';
+// import './polyfills';
 import eruda from "eruda";
 
-import  {StrictMode} from 'react'
-import {render} from 'react-dom';
+// import  {StrictMode} from 'react'
+// import {render} from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
 import {App} from './App'
-import './index.scss'
 import {runSingleInstance} from "./utils/run-signle-instance";
 
 eruda.init();
@@ -36,10 +41,16 @@ async function enableMocking() {
     setInterval(verifyAndRestartWorker, 1_000);
   });
 }
-
+/*
 enableMocking().then(() => render(
   <StrictMode>
     <App/>
   </StrictMode>,
   document.getElementById('root') as HTMLElement
 ));
+*/
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)

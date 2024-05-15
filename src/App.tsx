@@ -13,7 +13,7 @@ import { TonProof } from "./components/TonProof/TonProof";
 export const App = () => (
 
   <TonConnectUIProvider
-  manifestUrl="https://hlam.github.io/ton-crypto-match/tonconnect-manifest.json"
+  manifestUrl=" "
   uiPreferences={{ theme: THEME.DARK }}
   actionsConfiguration={{
       twaReturnUrl: 'https://t.me/DemoDappWithTonConnectBot/demo'
