@@ -1,8 +1,8 @@
 {
-    "url": "http://localhost:3000",                        
+    "url": "https://hlam.github.io/ton-crypto-match",                        
     "name": "CriptoMatch",
-    "iconUrl": "http://localhost:3000/apple-touch-icon.png",       
-    "termsOfUseUrl": "http://localhost:3000/terms-of-use.txt",     
-    "privacyPolicyUrl": "http://localhost:3000/privacy-policy.txt" 
+    "iconUrl": "https://hlam.github.io/ton-crypto-match/apple-touch-icon.png",       
+    "termsOfUseUrl": "https://hlam.github.io/ton-crypto-match/terms-of-use.txt",     
+    "privacyPolicyUrl": "https://hlam.github.io/ton-crypto-match/privacy-policy.txt" 
   }
 

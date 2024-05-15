@@ -11,7 +11,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import {App} from './App'
-import {runSingleInstance} from "./utils/run-signle-instance";
+// import {runSingleInstance} from "./utils/run-signle-instance";
 
 eruda.init();
 /*
